@@ -1,0 +1,17 @@
+{
+  "name": "CorderoFinancieroArBot",
+  "version": "1.0.0",
+  "description": "Bot mínimo de Telegram para Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "render-build": "echo 'no build step'"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "telegraf": "^4.16.3"
+  }
+}
